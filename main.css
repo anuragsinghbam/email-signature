@@ -20,7 +20,7 @@ body {
     display: flex;
     justify-content: space-between;
     width: 95%;
-    max-width: 1350px;
+    max-width: 1320px;
 }
 
 .card-check {
@@ -372,6 +372,10 @@ input {
 }
 
 @media (max-width: 600px) {
+
+body {
+    margin: 0;
+}
 
 .big-card {
     width: 402px;
