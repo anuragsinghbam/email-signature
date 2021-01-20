@@ -350,6 +350,7 @@ input {
 @media (max-width: 1300px) {
     body {
         display: block;
+        margin: 0;
     }
     .small-cards-container, .big-cards-container {
         flex-direction: column;
@@ -372,10 +373,6 @@ input {
 }
 
 @media (max-width: 600px) {
-
-body {
-    margin: 0;
-}
 
 .big-card {
     width: 402px;
