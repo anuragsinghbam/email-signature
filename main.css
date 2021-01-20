@@ -12,10 +12,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    justify-content: center;
-    height: 100vh;
     font-family: 'Roboto', sans-serif;
-    height: 100vh;
+    margin: 60px 0;
 }
 
 .small-cards-container, .big-cards-container {
