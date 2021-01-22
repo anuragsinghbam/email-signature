@@ -174,10 +174,6 @@ body {
     background: #C4C4C4;
 }
 
-
-
-
-
 /* Blue Divider */
 
 .blue-divider {
@@ -308,7 +304,7 @@ input {
 
 .output-card-divider {
     width: 5px;
-    height: 231px;
+    height: 260px;
     background: #F4C20D;
     margin: 0 28px;
 }
@@ -355,6 +351,70 @@ input {
     background: #4aafee;
 }
 
+/* Output Card 2 */
+
+.big-profile-img {
+    border-radius: 50%;
+}
+
+.output-2-divider {
+    width: 160px;
+    margin: 10px 0;
+     background: #F4C20D;
+}
+
+.output-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.output-card .phone-email {
+    display: flex;
+}
+
+.output-card .phone-email .email {
+    margin-left: 70px;
+}
+
+.output-card .company-name {
+    margin-bottom: 8px;
+}
+
+.output-card .link {
+    margin-top: 5px;
+}
+
+
+/* Output Card-3 */
+
+.output-3 {
+    display: flex;
+    width: 100%;
+    padding-left: 40px;
+    margin-bottom: 0px;
+}
+
+.output-3 .signature-details {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.output-3 .company-name, .output-3 .job-title {
+    display: inline-block;
+    margin: 15px 0 0 0;
+
+}
+
+.output-3-divider {
+    width: 300px;
+    height: 4px;
+    background: #F4C20D;
+    margin: 20px 0;
+    border-radius: 10px;
+}
 
 @media (max-width: 1300px) {
     body {
@@ -450,6 +510,11 @@ input {
 }
 
 .output-card-divider {
+    height: 200px;
+    margin: 0 21px;
+}
+
+.output-2-divider {
     width: 5px;
     height: 200px;
     background: #F4C20D;
@@ -487,6 +552,55 @@ input {
 
 .card-check {
     margin-bottom: 25px;
+}
+
+/* Output Card 2 */
+
+.output-2 {
+    flex-direction: column;
+    padding-left: 28px;
+    padding-top: 14px;
+}
+
+.output-2-divider {
+    height: 1px;
+    width: 101.5px;
+    margin:4px 0;
+}
+
+.output-2 .job-title {
+    margin: 5px 0;
+}
+
+.output-2 .company-name {
+    margin: 0px;
+}
+
+.output-2 .link {
+    margin: 0;
+}
+
+.big-profile-img {
+    width: 82px;
+    margin-top: 0px;
+}
+
+.output-card .phone-email .email {
+    margin-left: 40px;
+}
+
+/* Output Card - 3 */
+
+.output-3-divider {
+    width: 210px;
+    height: 4px;
+    background: #F4C20D;
+    margin: 2px 0 20px 0;
+    border-radius: 10px;
+}
+
+.output-3 .job-title, .output-3 .company-name {
+    margin: 10px 0;
 }
 
 }
